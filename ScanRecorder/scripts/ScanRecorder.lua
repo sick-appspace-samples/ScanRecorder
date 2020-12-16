@@ -33,8 +33,7 @@ File.del(recordFolder)
 File.mkdir(recordFolder)
 
 -- Create a gViewer instance
-gViewer = View.create()
-gViewer:setID('viewer3D')
+gViewer = View.create('viewer3D1')
 
 -- Create a transform instance to convert the Scan to a PointCloud
 gTransformer = Scan.Transform.create()
