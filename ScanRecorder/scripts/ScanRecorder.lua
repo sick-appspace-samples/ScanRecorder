@@ -48,7 +48,7 @@ Scan.Provider.RemoteScanner.start(gRemoteScanner)
 
 --Start of Function and Event Scope---------------------------------------------
 
--- Is called when a scan is received
+---Is called when a scan is received
 function gHandleNewScan(scan, _)
   local ts = DateTime.getTimestamp()
   -- Transform to PointCloud to save and view the scan
